@@ -1,15 +1,27 @@
 {
+  "name": "ehd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "dev": "parcel index.html",
-    "build": "parcel build index.html"
+    "dev": "vite",
+    "build": "vite build"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenjaminRochez/ehd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BenjaminRochez/ehd/issues"
+  },
+  "homepage": "https://github.com/BenjaminRochez/ehd#readme",
   "devDependencies": {
-    "autoprefixer": "^9.8.6",
-    "parcel-bundler": "1.12.5",
-    "parcel-plugin-purgecss": "3.0.0",
-    "postcss": "^7.0.35",
-    "sass": "^1.32.11",
-    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.1.2"
-  },
-  "dependencies": {}
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.13",
+    "tailwindcss": "^2.1.2",
+    "vite": "^2.2.3"
+  }
 }
