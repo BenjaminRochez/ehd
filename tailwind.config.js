@@ -6,7 +6,12 @@ module.exports = {
   theme: {
     fontFamily: {
       'body': ['Poppins'],
-     }
+    },
+    extend: {
+      backgroundImage: theme => ({
+        'hero': "url('/img/hero.jpg')",
+      })
+    }
   },
   variants: {
     extend: {},

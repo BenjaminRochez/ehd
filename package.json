@@ -18,9 +18,7 @@
     "url": "https://github.com/BenjaminRochez/ehd/issues"
   },
   "homepage": "https://github.com/BenjaminRochez/ehd#readme",
-  "devDependencies": {
-    
-  },
+  "devDependencies": {},
   "dependencies": {
     "vite": "^2.2.3",
     "autoprefixer": "^10.2.5",
